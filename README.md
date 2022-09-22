@@ -1,6 +1,6 @@
 - 👋 Hi, I’m nelson
 - 👀 I’m interested in web development
-- 🌱 I’m currently learning laravel
+- 🌱 I’m currently learning laravel and C# .net
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
