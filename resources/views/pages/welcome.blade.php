@@ -9,7 +9,7 @@
     <body class="antialiased">
        
 
-       <button onclick="getuserDetailsRequest();" class="bg-primary">LARAVEL FROM SCRATCH</button>
+       <button onclick="getuserDetailsRequest();" class="btn btn-outline-primary btn-sm">LARAVEL FROM SCRATCH</button>
     </body>
 </html>
 
