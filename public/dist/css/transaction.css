@@ -1,0 +1,106 @@
+/* Transaction CSS */
+input:focus {
+    background-color: #E8F4FC !important;
+}
+
+textarea:focus {
+    background-color: #E8F4FC !important;
+}
+
+select:focus {
+    background-color: #E8F4FC !important;
+}
+
+.trans-input {
+    padding: 0px;
+    height: auto;
+    font-size: 14px;
+    background-color: white !important;
+    border: 0px;
+}
+
+.trans-input-aux {
+    padding: 0px;
+    height: auto;
+    font-size: 14px;
+    border: 0px;
+}
+
+.trans-input-erate {
+    padding: 0px;
+    height: 23.5px;
+    text-align: right;
+    font-size: 15.1px;
+    width: 100px;
+    border: 0px;
+    background-color: white !important;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.trans-input-right-align {
+    padding: 0px;
+    height: auto;
+    text-align: right;
+    font-size: 15.1px;
+    border: 0px;
+    background-color: white !important;
+}
+
+.trans-input-hidden {
+    padding: 0px;
+    height: auto;
+    text-align: right;
+    font-size: 15.1px;
+    border: 0px;
+    background-color: white !important;
+    display: none
+}
+
+.trans-dropdown {
+    padding:0px;
+    height: auto;
+    font-size: 14px;
+    border: 0px;
+    background-color: white !important;
+}
+
+.trans-dropdown-aux {
+    padding: 0px;
+    height: auto;
+    font-size: 14px;
+    border: 0px;
+}
+
+.modalTrBody tbody>tr:hover td {
+    background-color: #e3edfa;
+    font-weight: bold;
+  }
+
+  .pageTrBody tbody>tr:hover td {
+    background-color: #e3edfa;
+    font-weight: bold;
+  }
+
+  /* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(223, 222, 222); 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #d3d3d3; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: gray; 
+  }
