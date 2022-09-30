@@ -18,7 +18,7 @@ use App\Helper\ApiClientHelper;
 */
 
 Route::get('/', function () {
-    return view('pages.welcome');
+    return view('pages.home');
 });
 
 Route::get('/getUserDetails', 'App\Http\Controllers\UserController@GetUserDetails')->name('getUserDetails');

@@ -23,11 +23,12 @@ function initiateAjaxGetRequest(url, method, data)
 function getuserDetailsRequest()
 {   
     $.LoadingOverlay('Show');
-    const fields = {  }
-    initiateAjaxGetRequest('{{ route("getUserDetails") }}', 'GET', fields)
-    .done(function (data){
-        alert(JSON.stringify(data));
-        $.LoadingOverlay('hide');
-    });
+    // const fields = {  }
+    // initiateAjaxGetRequest('{{ route("getUserDetails") }}', 'GET', fields)
+    // .done(function (data){
+    //     alert(JSON.stringify(data));
+         $.LoadingOverlay('hide');
+    // });
+    alert('You click the button');
 }
 </script>
