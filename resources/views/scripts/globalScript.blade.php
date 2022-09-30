@@ -23,7 +23,7 @@ function initiateAjaxGetRequest(url, method, data)
 function getuserDetailsRequest()
 {   
     $.LoadingOverlay('Show');
-    const fields = { agent_id: 'testagent', user_id : 'testuseruid' }
+    const fields = {  }
     initiateAjaxGetRequest('{{ route("getUserDetails") }}', 'GET', fields)
     .done(function (data){
         alert(JSON.stringify(data));
