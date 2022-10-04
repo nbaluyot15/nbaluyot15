@@ -8,12 +8,12 @@
         <title>Laravel</title>
         <link rel="stylesheet" href="{{ asset('dist/css/adminlte.min.css') }}">
         <link rel="stylesheet" href="{{ asset('plugins/bootstrap@5.2.1/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('plugins/fontawesome-free-6.2.0-web/css/all.min.css') }}">
     </head>
-    <body class="antialiased">
-        @include('layout.header')
-        @include('layout.sidebar')
-
+    <body class="sidebar-mini layout-fixed layout-navbar-fixed sidebar-mini sidebar-closed sidebar-collapse"><!--else hold-transition sidebar-mini-->
         <div id="app" class="wrapper">
+            @include('layout.navbar')
+            @include('layout.sidebar')
             @yield('content')
         </div>
 

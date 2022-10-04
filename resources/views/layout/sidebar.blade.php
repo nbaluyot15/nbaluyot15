@@ -3,7 +3,7 @@
     li{ cursor: pointer; }
 </style>
   
-<aside class="main-sidebar sidebar-dark-primary elevation-6">
+<aside class="main-sidebar elevation-6" style="background-color: #fab005; color: white">
     <!-- Brand Logo -->
     <a href="#" class="brand-link">
     {{-- <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" --}} 

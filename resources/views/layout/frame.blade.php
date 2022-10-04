@@ -2,7 +2,7 @@
     {{-- content starts here --}}
 
     <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper"  style="margin-top: 40px;" >
+  <div class="content-wrapper bg-white"  style="margin-top: 57px;" >
     <!-- Content Header (Page header) -->
     <div class="content-header">
     </div>
@@ -12,28 +12,17 @@
 
     <!-- Main content -->
     <div class="content" style="width:100%; margin:auto;">
-      <div class="container-fluid">
-            <div class="col-12 col-sm-12 col-lg-12">
-            <div class="card card-primary card-tabs">
-                    <div class="card-header p-0">
-                    <div class="modal-header" style="margin-bottom: -20px; background-color: blue; align: center;">
-                    </div>
-                    <div class="modal-header" style="margin-bottom: -34px; background-color: #fcc200; align: center;">
-                    </div>
-                    <ul class="nav nav-tabs" id="custom-tabs-one-tab" role="tablist" style="margin-top: 5px; background-color: #ffffff;">
-                        <l id="titlePage" style="font-family:'Calibri'; border-bottom: none; font-size: 35px; margin-top: 10px; margin:auto; color: #002e63;">FRAMESET</l>
-                    </ul>
-                    </div>
-              <div class="card-body">
+        <div class="container-fluid">
 
-                   <table class="table table-bordered table-striped table-layout:auto;" style="font-size: 12px;">
-                                  <tr>
-                                    <td>test</td>
-                                  </tr>
-                   </table>
+            <div class="card bg-light" style="max-width: 100%;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h5 class="card-title">FRAMESET</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
               </div>
-            </div>
-          </div>
+
+        </div>
     </div>
     <!-- /.content -->
   </div>
