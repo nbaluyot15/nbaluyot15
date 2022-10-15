@@ -2,6 +2,5 @@
 
 @section('content')
     {{-- content starts here --}}
-    <button onclick="getuserDetailsRequest();" class="btn btn-outline-primary btn-sm">LARAVEL FROM SCRATCH</button>
-    @include('layout.frame')
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 @endsection
