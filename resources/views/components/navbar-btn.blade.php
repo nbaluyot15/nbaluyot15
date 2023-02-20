@@ -1,0 +1,1 @@
+<a href={{ $hrefValue }} class="btn btn-outline-primary border-0">{{ $btnText }}</a>

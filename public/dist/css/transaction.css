@@ -104,3 +104,38 @@ select:focus {
   ::-webkit-scrollbar-thumb:hover {
     background: gray; 
   }
+
+  .navbar-brand{
+    font-family: 'calibri'
+  }
+
+  .clipped {
+    padding: 20px;  
+    width: 50%;
+    background: #ddd;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 80% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0%, 80% 100%, 0% 100%);
+  }
+  
+  .clipped > * 
+  {
+    max-width: 90%
+  }
+
+#about_me{
+  background-color: #3C31DD;
+  color : white;
+}
+
+.main_color{
+  color : #3C31DD;
+}
+
+.btn-outline-primary{
+  color : #3C31DD !important;
+}
+
+.btn-outline-primary:hover{
+  color: white !important;
+  background-color : #3C31DD !important;
+}
